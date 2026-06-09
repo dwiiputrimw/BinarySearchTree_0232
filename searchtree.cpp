@@ -23,5 +23,8 @@ class binarytree
 public:
     node *root;
 
+    binarytree()
+    {
+        root = NULL;
+    }
 }
-
