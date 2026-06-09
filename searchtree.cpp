@@ -27,4 +27,9 @@ public:
     {
         root = NULL;
     }
-}
+
+    void insert(string element)
+    {
+        node *newnode = new node(element, NULL, NULL);
+    }
+};
